@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vista.VistaHolaPersona">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="574" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8b08e" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Hola persona"/>
+        </properties>
+      </component>
+      <grid id="80818" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="93636" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Nombre:"/>
+        </properties>
+      </component>
+      <component id="a396b" class="javax.swing.JTextField" binding="txtNombre">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+        </properties>
+      </component>
+      <component id="2aaba" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Apellido"/>
+        </properties>
+      </component>
+      <component id="a6eb3" class="javax.swing.JTextField" binding="txtApellido">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+        </properties>
+      </component>
+      <component id="1ae09" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Dni"/>
+        </properties>
+      </component>
+      <component id="d58a" class="javax.swing.JTextField" binding="txtDni">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+          <horizontalAlignment value="10"/>
+        </properties>
+      </component>
+      <component id="ed3ea" class="javax.swing.JButton" binding="agregarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Agregar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
